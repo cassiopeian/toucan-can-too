@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 32, 38);
+}
+#intro-box {
+    width: 350px;
+    margin: 200px auto 0;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5%;
+    padding: 30px 30px;
+}
+h1, 
+h2 {
+    text-align: center;
+}
+#welcome {
+    line-height: 1.5;
+}
+#start-story {
+    margin: 50px auto;
+    display: block;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#copyright {
+    padding: 10px 20px;
+}
