@@ -14,9 +14,20 @@
             <h1>Toucan Can Too</h1>
             <span id="tagline">An Interactive Choose-Your-Own-Adventure Story</span>
             <img id="hibiscus-icon" src="images/icon-pink-hibiscus.svg" alt="Pink hibiscus flower" />
-            <p id="welcome">Hello! Meet Cantu the toucan. Can you help him decide what to do on his latest adventure? Click the START button below to open the Story Options menu, then select the actions you think Cantu should take. Ready? Okay, go!</p>
+            <p id="welcome">Hello! Meet Cantu the toucan. Can you help him decide what to do on his next adventure? Click the START button below to open the Story Options menu, then select the actions you think Cantu should take. Ready? Okay, go!</p>
         </section>
         <button id="start-button" type="button">Start</button>
+
+        <section id="story-options">
+            <h2>Select Your Story Options</h2>
+            <form>
+                <label for="location-choice">Cantu wants to visit the</label>
+                <select name="location-choice" id="location-choice">
+                    <option value="beach">beach</option>
+                    <option value="rainforest">rainforest</option>
+                </select>
+            </form>
+        </section>
     </main>
     <footer>
         <p id="copyright">&copy; 2020 Cassiopeia Neely. All Rights Reserved.</p>
