@@ -16,11 +16,12 @@ body {
     text-align: center;
 }
 h1, 
-#tagline {
+#tagline,
+#start-button {
     text-transform: uppercase;
 }
 h1 {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market', Helvetica;
     font-size: 2.9rem;
     font-weight: 400;
     margin: 1.5rem 0 1rem 0;
@@ -31,9 +32,15 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 #tagline {
-    font-family: 'Poiret One', cursive;
-    font-size: 1rem;
-    font-weight: 400;
+    /* font-family: 'Poiret One', cursive; */
+    /* font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-style: italic; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-style: italic;
     letter-spacing: 1.5px;
     color: rgb(115, 149, 155);
     border: 1px solid rgb(115, 149, 155);
@@ -45,19 +52,28 @@ h1 {
     padding-top: 40px;
 }
 p#welcome {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 400; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
     text-align: justify;
     line-height: 1.8;
     color: rgb(140, 141, 154);
     margin: 1.2em 0 1em 0;
 }
 #start-button {
-    font-family: 'Poiret One', cursive;
+    /* font-family: 'Poiret One', cursive; */
+    /* font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-weight: 200;
+    font-style: italic; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
     letter-spacing: 2px;
     color: rgb(250, 250, 250);
     background-color: rgb(233, 32, 38);
@@ -81,15 +97,62 @@ p#welcome {
 #story-options {
     display: none;
     text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 700px;
+}
+#bop-leaves {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
 }
 h2 {
-    font-family: 'Poiret One', cursive;
+    /* font-family: 'Poiret One', cursive; */
+    /* font-family: 'Nunito', sans-serif;
     font-size: 1.5rem;
+    font-weight: 200; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(243, 109, 130)
 }
-form {
-    font-family: 'Nunito', sans-serif;
+.query {
+    /* font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
+    font-weight: 400; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    color: rgb(250, 250, 250);
 }
+.option {
+    /* font-family: 'Nunito', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+    font-style: italic; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(200, 205, 221);
+    border-bottom: 1px solid rgb(200, 205, 221);
+    cursor: pointer;
+}
+.arrow {
+    border: solid rgb(200, 205, 221);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0 0 5px 10px;
+    cursor: pointer;
+  }
+
 
 /* FOOTER SECTION */
 footer {
@@ -98,9 +161,13 @@ footer {
     width: 100%;
 }
 p#copyright {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400; */
+    font-family: rooney-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
     letter-spacing: 1px;
     padding: 10px 20px;
     color: rgb(247, 163, 163);
