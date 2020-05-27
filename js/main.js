@@ -20,3 +20,8 @@ startButton.onclick = () => {
 // selectHolder.onclick = () => {
 //     dropdownOptions.style.display = 'block';
 // };
+
+// selectHolder.onmouseover = () => {
+//     dropdownOptions.style.display = 'block';
+// };
+// selectHolder.addEventListener('mouseout', )
