@@ -7,6 +7,15 @@ html {
 body {
     background-color: rgb(233, 32, 38);
 }
+#home-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#peeking-cantu,
+#plumeria-ferns {
+    height: 350px;
+}
 #intro-box {
     width: 500px;
     margin: 5% auto 0;
@@ -14,6 +23,7 @@ body {
     border-radius: 5%;
     padding: 30px 50px;
     text-align: center;
+    border-left: url('../images/cantu-the-toucan.svg');
 }
 h1, 
 #tagline,
