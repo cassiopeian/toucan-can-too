@@ -5,12 +5,13 @@ html {
     font-size: 16px;
 }
 body {
-    background-color: rgb(233, 32, 38);
+    background-color: rgb(43, 70, 97);
 }
 #home-flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 #peeking-cantu,
 #plumeria-ferns {
@@ -18,12 +19,10 @@ body {
 }
 #intro-box {
     width: 500px;
-    margin: 5% auto 0;
     background-color: rgb(250, 250, 250);
     border-radius: 5%;
     padding: 30px 50px;
     text-align: center;
-    border-left: url('../images/cantu-the-toucan.svg');
 }
 h1, 
 #tagline,
@@ -86,7 +85,7 @@ p#welcome {
     font-style: italic;
     letter-spacing: 2px;
     color: rgb(250, 250, 250);
-    background-color: rgb(233, 32, 38);
+    background-color: rgb(43, 70, 97);
     border: 2px solid rgb(250, 250, 250);
     border-radius: 5px;
     margin: 50px auto;
@@ -97,7 +96,7 @@ p#welcome {
 #start-button:hover {
     transition-duration: 2s;
     background-color: rgb(250, 250, 250);
-    color: rgb(233, 32, 38);
+    color: rgb(43, 70, 97);
     letter-spacing: 5px;
     font-weight: bold;
     padding: 10px 25px;
