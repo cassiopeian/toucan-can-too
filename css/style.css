@@ -242,4 +242,5 @@ td {
 .random-letter {
     padding: 3px;
     margin: 0;
+    text-transform: uppercase;
 }
