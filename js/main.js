@@ -13,6 +13,9 @@ startButton.onclick = () => {
     startButton.style.display = 'none';
 };
 
+
+
+
 // selectHolder.onclick = () => {
 //     arrow.style.transform = 'rotate(225deg)';
 //     arrow.style.margin = '0 0 0 10px';
