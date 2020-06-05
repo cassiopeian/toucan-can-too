@@ -1,7 +1,11 @@
 /* WORD SEARCH */
 
+body {
+    margin: 0;
+}
+
 #word-search {
-    margin-top: 150px;
+    margin-top: 6%;
     text-align: center;
 }
 #puzzle-grid {
@@ -34,7 +38,48 @@ td {
     /* background-color: rgb(243, 109, 130); */
     color: rgb(43, 70, 97);
 }
-.deselcted-letter {
+/* .deselected-letter {
     background-color: rgb(43, 70, 97);
     color: rgb(250, 250, 250);
+} */
+
+/* WORDS AND ACCORDION  */
+
+#words-container {
+    background-color: rgb(214, 255, 47);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+#left-column,
+#right-column {
+    width: 350px;
+}
+.words {
+    background-color: rgb(10, 21, 27);
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(214, 255, 47);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+.hidden-area {
+    background-color: rgb(250, 250, 250);
+    padding: 10px 20px;
+    display: none;
+}
+.animal-facts {
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(101, 112, 122);
+    margin: 0;
 }
