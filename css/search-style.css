@@ -73,6 +73,10 @@ td {
 .hidden-area {
     background-color: rgb(250, 250, 250);
     padding: 10px 20px;
+    /* display: none; */
+}
+#anaconda,
+#caiman {
     display: none;
 }
 .animal-facts {
