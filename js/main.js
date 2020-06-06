@@ -6,12 +6,12 @@ arrow = document.querySelector('.arrow');
 selectHolder = document.querySelector('.selection-placeholder');
 dropdownOptions = document.querySelector('.dropdown-options');
 
-startButton.onclick = () => {
-    document.body.style.backgroundColor = '#0a151b';
-    homeItems.style.display = 'none';
-    storyOptions.style.display = 'block';
-    startButton.style.display = 'none';
-};
+// startButton.onclick = () => {
+//     document.body.style.backgroundColor = '#0a151b';
+//     homeItems.style.display = 'none';
+//     storyOptions.style.display = 'block';
+//     startButton.style.display = 'none';
+// };
 
 
 // CHOOSING FROM THE DROPDOWNS 
