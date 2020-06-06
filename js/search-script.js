@@ -31,8 +31,11 @@ $('.random-letter').on('click', function() {
 });
 
 
+// REVEAL THE HIDDEN ANIMAL FACTS
 
-
+if ($('p#10-1').hasClass('letter.selected-letter')) {
+    $('#anaconda').css('display', 'block');
+}
 
 
 // let letter = document.getElementsByClassName('letter');
