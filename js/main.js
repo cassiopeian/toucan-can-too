@@ -14,6 +14,22 @@ startButton.onclick = () => {
 };
 
 
+// CHOOSING FROM THE DROPDOWNS 
+
+beach = document.getElementById('beach');
+rainforest = document.getElementById('rainforest');
+
+beach.onclick = () => {
+    dropdownOptions.style.display = 'none';
+    selectHolder.innerHTML = 'beach';
+    selectHolder.setAttribute('class', 'drop-chosen');
+};
+
+rainforest.onclick = () => {
+    dropdownOptions.style.display = 'none';
+    selectHolder.innerHTML = 'rainforest';
+    selectHolder.setAttribute('class', 'drop-chosen');
+};
 
 
 // selectHolder.onclick = () => {
