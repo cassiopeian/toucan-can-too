@@ -218,4 +218,13 @@ h2 {
     transform: rotate(225deg);
     margin: 0 0 0 10px;
 }
-
+.drop-chosen {
+    font-family: rooney-sans, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    color: rgb(0, 169, 157);
+    position: relative;
+    display: inline-block;
+}
