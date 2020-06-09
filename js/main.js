@@ -3,7 +3,7 @@ startButton = document.getElementById('start-button');
 homeItems = document.getElementById('home-flex-container');
 storyOptions = document.getElementById('story-options');
 arrow = document.querySelector('.arrow');
-selectHolder = document.querySelector('.selection-placeholder');
+
 dropdownOptions = document.querySelector('.dropdown-options');
 
 // startButton.onclick = () => {
@@ -16,19 +16,36 @@ dropdownOptions = document.querySelector('.dropdown-options');
 
 // CHOOSING FROM THE DROPDOWNS 
 
+placeholderOne = document.getElementById('placeholder-one');
+placeholderTwo = document.getElementById('placeholder-two');
+
 beach = document.getElementById('beach');
 rainforest = document.getElementById('rainforest');
+shouldWake = document.getElementById('should-wake');
+shouldNotWake = document.getElementById('should-not-wake');
 
 beach.onclick = () => {
     dropdownOptions.style.display = 'none';
-    selectHolder.innerHTML = 'beach';
-    selectHolder.setAttribute('class', 'drop-chosen');
+    placeholderOne.innerHTML = 'beach';
+    placeholderOne.setAttribute('class', 'drop-chosen');
 };
 
 rainforest.onclick = () => {
     dropdownOptions.style.display = 'none';
-    selectHolder.innerHTML = 'rainforest';
-    selectHolder.setAttribute('class', 'drop-chosen');
+    placeholderOne.innerHTML = 'rainforest';
+    placeholderOne.setAttribute('class', 'drop-chosen');
+};
+
+shouldWake.onclick = () => {
+    dropdownOptions.style.display = 'none';
+    placeholderTwo.innerHTML = 'should';
+    placeholderTwo.setAttribute('class', 'drop-chosen');
+};
+
+shouldNotWake.onclick = () => {
+    dropdownOptions.style.display = 'none';
+    placeholderTwo.innerHTML = 'should not';
+    placeholderTwo.setAttribute('class', 'drop-chosen');
 };
 
 
