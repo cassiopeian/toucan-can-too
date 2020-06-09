@@ -16,6 +16,8 @@ dropdownOptions = document.querySelector('.dropdown-options');
 
 // CHOOSING FROM THE DROPDOWNS 
 
+queryTwo = document.getElementById('query-two');
+
 placeholderOne = document.getElementById('placeholder-one');
 placeholderTwo = document.getElementById('placeholder-two');
 
@@ -28,12 +30,14 @@ beach.onclick = () => {
     dropdownOptions.style.display = 'none';
     placeholderOne.innerHTML = 'beach';
     placeholderOne.setAttribute('class', 'drop-chosen');
+    queryTwo.style.display = 'block';
 };
 
 rainforest.onclick = () => {
     dropdownOptions.style.display = 'none';
     placeholderOne.innerHTML = 'rainforest';
     placeholderOne.setAttribute('class', 'drop-chosen');
+    queryTwo.style.display = 'block';
 };
 
 shouldWake.onclick = () => {
@@ -44,7 +48,7 @@ shouldWake.onclick = () => {
 
 shouldNotWake.onclick = () => {
     dropdownOptions.style.display = 'none';
-    placeholderTwo.innerHTML = 'should not';
+    placeholderTwo.innerHTML = `shouldn't`;
     placeholderTwo.setAttribute('class', 'drop-chosen');
 };
 
