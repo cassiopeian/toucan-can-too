@@ -206,9 +206,9 @@ h2 {
     display: inline-block;
     margin-bottom: 2rem;
 }
-/* .dependent {
+.dependent {
     display: none;
-} */
+}
 .selection-placeholder {
     /* font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
