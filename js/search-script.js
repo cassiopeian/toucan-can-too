@@ -20,6 +20,7 @@ $('.letter').on('click', function() {
     } else {
         $(this).addClass('selected-letter');
     }
+    revealAnaconda();
 });
 
 $('.random-letter').on('click', function() {
@@ -33,15 +34,19 @@ $('.random-letter').on('click', function() {
 
 // REVEAL THE HIDDEN ANIMAL FACTS
 
-if ($('p#10-1').hasClass('letter.selected-letter')) {
-    $('#anaconda').css('display', 'block');
-}
+let revealAnaconda = () => {
+    if ($('#10-1').hasClass('selected-letter') && $('#3-8').hasClass('selected-letter')) {
+        $('#anaconda').css('display', 'block');
+    }
+};
 
 
-// let letter = document.getElementsByClassName('letter');
+// let green = (element) => {
+//     element.hasClass('selected-letter');
+// };
 
-// let oneOne = document.getElementById('1-1');
-// let oneTwo = document.getElementById('1-2');
-// let oneThree = document.getElementById('1-3');
-
-// let correctLetters = [oneOne, oneTwo, oneThree];
+// let revealAnaconda = () => {
+//     if (($('#10-1') === green) && ($('#3-8') === green)) {
+//         $('#anaconda').css('display', 'block');
+//     }
+// };
