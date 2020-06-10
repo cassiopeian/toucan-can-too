@@ -7,7 +7,8 @@ body {
     box-sizing: border-box;
     font-size: 16px;
 }
-#home-page {
+#home-page,
+#puzzle-page {
     background-color: rgb(43, 70, 97);
 }
 #story-page {
