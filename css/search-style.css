@@ -76,7 +76,15 @@ td {
     /* display: none; */
 }
 #anaconda,
-#caiman {
+#caiman,
+#macaw,
+#morpho,
+#ocelot,
+#piranha,
+#sloth,
+#tapir,
+#toucan,
+#treefrog {
     display: none;
 }
 .animal-facts {
