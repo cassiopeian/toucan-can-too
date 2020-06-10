@@ -34,19 +34,18 @@ $('.random-letter').on('click', function() {
 
 // REVEAL THE HIDDEN ANIMAL FACTS
 
+let green = (element) => {
+    return element.hasClass('selected-letter');
+};
+
 let revealAnaconda = () => {
-    if ($('#10-1').hasClass('selected-letter') && $('#3-8').hasClass('selected-letter')) {
+    if (green($('#10-1')) && green($('#3-8'))) {
         $('#anaconda').css('display', 'block');
     }
 };
 
-
-// let green = (element) => {
-//     element.hasClass('selected-letter');
-// };
-
 // let revealAnaconda = () => {
-//     if (($('#10-1') === green) && ($('#3-8') === green)) {
+//     if ($('#10-1').hasClass('selected-letter') && $('#3-8').hasClass('selected-letter')) {
 //         $('#anaconda').css('display', 'block');
 //     }
 // };
