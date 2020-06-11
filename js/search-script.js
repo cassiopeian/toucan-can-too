@@ -21,6 +21,8 @@ $('.letter').on('click', function() {
         $(this).addClass('selected-letter');
     }
     revealAnaconda();
+    revealCaiman();
+    revealMacaw();
 });
 
 $('.random-letter').on('click', function() {
@@ -41,6 +43,18 @@ let green = (element) => {
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
         $('#anaconda').css('display', 'block');
+    }
+};
+
+let revealCaiman = () => {
+    if (green($('#10-11')) && green($('#5-6'))) {
+        $('#caiman').css('display', 'block');
+    }
+};
+
+let revealMacaw = () => {
+    if (green($('#2-3')) && green($('#2-7'))) {
+        $('#macaw').css('display', 'block');
     }
 };
 
