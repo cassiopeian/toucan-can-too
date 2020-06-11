@@ -54,7 +54,7 @@ let revealAnaconda = () => {
 };
 
 let revealCaiman = () => {
-    if (green($('#10-11')) && green($('#5-6'))) {
+    if (green($('#10-11')) && green($('#6-7')) && green($('#5-6'))) {
         $('#caiman').css('display', 'block');
     }
 };
@@ -78,7 +78,7 @@ let revealOcelot = () => {
 };
 
 let revealPiranha = () => {
-    if (green($('#4-1')) && green($('#10-1'))) {
+    if (green($('#4-1')) && green($('#9-1')) && green($('#10-1'))) {
         $('#piranha').css('display', 'block');
     }
 };
