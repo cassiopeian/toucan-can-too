@@ -84,7 +84,7 @@ let revealPiranha = () => {
 };
 
 let revealSloth = () => {
-    if (green($('#7-2')) && green($('#3-27'))) {
+    if (green($('#7-2')) && green($('#3-2'))) {
         $('#sloth').css('display', 'block');
     }
 };
