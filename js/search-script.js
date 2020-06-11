@@ -23,6 +23,8 @@ $('.letter').on('click', function() {
     revealAnaconda();
     revealCaiman();
     revealMacaw();
+    revealMorpho();
+    revealOcelot();
 });
 
 $('.random-letter').on('click', function() {
@@ -57,6 +59,19 @@ let revealMacaw = () => {
         $('#macaw').css('display', 'block');
     }
 };
+
+let revealMorpho = () => {
+    if (green($('#5-5')) && green($('#10-5'))) {
+        $('#morpho').css('display', 'block');
+    }
+};
+
+let revealOcelot = () => {
+    if (green($('#3-11')) && green($('#8-11'))) {
+        $('#ocelot').css('display', 'block');
+    }
+};
+
 
 // let revealAnaconda = () => {
 //     if ($('#10-1').hasClass('selected-letter') && $('#3-8').hasClass('selected-letter')) {
