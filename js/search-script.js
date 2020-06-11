@@ -29,6 +29,7 @@ $('.letter').on('click', function() {
     revealSloth();
     revealTapir();
     revealToucan();
+    revealTreeFrog();
 });
 
 $('.random-letter').on('click', function() {
@@ -97,6 +98,12 @@ let revealTapir = () => {
 let revealToucan = () => {
     if (green($('#6-10')) && green($('#1-10'))) {
         $('#toucan').css('display', 'block');
+    }
+};
+
+let revealTreeFrog = () => {
+    if (green($('#8-1')) && green($('#1-1'))) {
+        $('#treefrog').css('display', 'block');
     }
 };
 
