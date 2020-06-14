@@ -49,7 +49,7 @@ let green = (element) => {
 
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
-        $('#anaconda').css('display', 'block');
+        $('#anaconda').css('display', 'flex');
     }
 };
 
