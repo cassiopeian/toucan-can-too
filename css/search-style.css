@@ -11,10 +11,6 @@ body {
 #puzzle-grid {
     width: 400px;
     margin: 0 auto;
-    /* font-family: rooney-sans, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-    font-style: normal; */
     font-family: base-mono-wide, monospace;
     font-size: 1.25rem;
     font-weight: 300;
@@ -35,7 +31,6 @@ td {
 }
 .selected-letter {
     background-color: rgb(214, 255, 47);
-    /* background-color: rgb(243, 109, 130); */
     color: rgb(43, 70, 97);
 }
 /* .deselected-letter {
@@ -49,13 +44,13 @@ td {
     background-color: rgb(214, 255, 47);
     padding: 20px 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 30px 0;
 }
 #left-column,
 #right-column {
-    width: 350px;
+    width: 500px;
 }
 .words {
     background-color: rgb(10, 21, 27);
@@ -63,6 +58,7 @@ td {
     font-size: 1.1rem;
     font-weight: 500;
     font-style: normal;
+    letter-spacing: 0.3rem;
     color: rgb(214, 255, 47);
     text-align: center;
     text-transform: uppercase;
@@ -73,7 +69,6 @@ td {
 .hidden-area {
     background-color: rgb(250, 250, 250);
     padding: 10px 20px;
-    /* display: none; */
 }
 #anaconda,
 #caiman,
@@ -86,6 +81,15 @@ td {
 #toucan,
 #treefrog {
     display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.animal-illustration-containers {
+    width: 200px;
+    margin: 10px;
+}
+.animal-illustrations {
+    width: 100%;
 }
 .animal-facts {
     font-family: rooney-sans, sans-serif;
