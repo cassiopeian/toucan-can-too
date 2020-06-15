@@ -47,15 +47,20 @@ let green = (element) => {
     return element.hasClass('selected-letter');
 };
 
+let displayFlex = (animal) => {
+    return animal.css('display', 'flex');
+};
+
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
-        $('#anaconda').css('display', 'flex');
+        displayFlex($('#anaconda'));
     }
 };
 
 let revealCaiman = () => {
     if (green($('#10-11')) && green($('#6-7')) && green($('#5-6'))) {
-        $('#caiman').css('display', 'block');
+        // $('#caiman').css('display', 'block');
+        displayFlex($('#caiman'));
     }
 };
 
