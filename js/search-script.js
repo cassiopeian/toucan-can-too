@@ -14,6 +14,7 @@ function assignLetter() {
 
 // CHANGE COLOR WHEN CLICKED
 
+//this sets the letters green when clicked, and it reveals the animal facts when the reveal functions' conditions are met
 $('.letter').on('click', function() {
     if ($(this).hasClass('selected-letter')) {
         $(this).removeClass('selected-letter');
@@ -43,14 +44,17 @@ $('.random-letter').on('click', function() {
 
 // REVEAL THE HIDDEN ANIMAL FACTS
 
+// this confirms that a letter has been selected/turned green
 let green = (element) => {
     return element.hasClass('selected-letter');
 };
 
+// if the first and last letter of each word HAS been selected, displayFlex will "open" that word's hidden animal-fact div
 let displayFlex = (animal) => {
     return animal.css('display', 'flex');
 };
 
+// each revealAnimal function below relies on the two functions above, and they're all called in the click event on line 17
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
         displayFlex($('#anaconda'));
@@ -59,61 +63,54 @@ let revealAnaconda = () => {
 
 let revealCaiman = () => {
     if (green($('#10-11')) && green($('#6-7')) && green($('#5-6'))) {
-        // $('#caiman').css('display', 'block');
         displayFlex($('#caiman'));
     }
 };
 
 let revealMacaw = () => {
     if (green($('#2-3')) && green($('#2-7'))) {
-        $('#macaw').css('display', 'block');
+        displayFlex($('#macaw'));
     }
 };
 
 let revealMorpho = () => {
     if (green($('#5-5')) && green($('#10-5'))) {
-        $('#morpho').css('display', 'block');
+        displayFlex($('#morpho'));
     }
 };
 
 let revealOcelot = () => {
     if (green($('#3-11')) && green($('#8-11'))) {
-        $('#ocelot').css('display', 'block');
+        displayFlex($('#ocelot'));
     }
 };
 
 let revealPiranha = () => {
     if (green($('#4-1')) && green($('#9-1')) && green($('#10-1'))) {
-        $('#piranha').css('display', 'block');
+        displayFlex($('#piranha'));
     }
 };
 
 let revealSloth = () => {
     if (green($('#7-2')) && green($('#3-2'))) {
-        $('#sloth').css('display', 'block');
+        displayFlex($('#sloth'));
     }
 };
 
 let revealTapir = () => {
     if (green($('#5-9')) && green($('#9-9'))) {
-        $('#tapir').css('display', 'block');
+        displayFlex($('#tapir'));
     }
 };
 
 let revealToucan = () => {
     if (green($('#6-10')) && green($('#1-10'))) {
-        $('#toucan').css('display', 'block');
+        displayFlex($('#toucan'));
     }
 };
 
 let revealTreeFrog = () => {
     if (green($('#8-1')) && green($('#1-1'))) {
-        $('#treefrog').css('display', 'block');
+        displayFlex($('#treefrog'));
     }
 };
-
-// let revealAnaconda = () => {
-//     if ($('#10-1').hasClass('selected-letter') && $('#3-8').hasClass('selected-letter')) {
-//         $('#anaconda').css('display', 'block');
-//     }
-// };
