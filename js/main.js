@@ -53,6 +53,23 @@ shouldNotWake.onclick = () => {
 };
 
 
+// SLOTH MENU
+
+$('.hamburger').on('click', function(){
+    $('nav').animate({left: 0});
+  });
+  
+$('.close-nav').on('click', function(){
+    $('nav').animate({left: '100%'});
+  });
+  
+$(window).on('resize', function(){
+    $('nav').removeAttr('style');
+  });
+
+
+
+  
 // selectHolder.onclick = () => {
 //     arrow.style.transform = 'rotate(225deg)';
 //     arrow.style.margin = '0 0 0 10px';
