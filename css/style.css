@@ -344,10 +344,14 @@ h2 {
         text-align: center;
         margin-left: 0;
         padding: 0;
-        line-height: 6rem;
+        line-height: 7rem;
     }
     .nav-links a {
         font-size: 3rem;
+    }
+    .nav-links a:hover {
+        background-size: 70px;
+        padding-top: 1.5rem;
     }
     header nav .close-nav {
         display: block;
