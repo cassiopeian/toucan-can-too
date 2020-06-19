@@ -120,9 +120,18 @@ p#copyright {
     align-items: center;
     margin-top: 5%;
 }
+#home-cantu-container {
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+}
+#home-plants-container {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+}
 #peeking-cantu,
 #plumeria-ferns {
     height: 350px;
+    filter: drop-shadow(2px 4px 7px rgb(5, 3, 24));
 }
 #intro-box {
     width: 500px;
