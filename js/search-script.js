@@ -116,6 +116,25 @@ let revealTreeFrog = () => {
 };
 
 
+// let closeFacts = () => {
+//     let words = document.getElementsByClassName('words');
+//     let i;
+    
+//     for (i = 0; i < words.length; i++) {
+//         words[i].addEventListener('click', function() {
+//             this.classList.toggle('open');
+//             let hiddenArea = this.nextElementSibling;
+//             if (hiddenArea.style.maxHeight) {
+//                 hiddenArea.style.maxHeight = null;
+//             } else {
+//                 hiddenArea.style.maxHeight = hiddenArea.scrollHeight + 'px';
+//             }
+//         });
+//     }
+// };
+
+
+
 // SLOTH MENU
 
 $('.hamburger').on('click', function(){
