@@ -110,28 +110,11 @@ let revealToucan = () => {
 };
 
 let revealTreeFrog = () => {
-    if (green($('#8-1')) && green($('#1-1'))) {
+    if (green($('#1-8')) && green($('#1-1'))) {
         displayFlex($('#treefrog'));
     }
 };
 
-
-// let closeFacts = () => {
-//     let words = document.getElementsByClassName('words');
-//     let i;
-    
-//     for (i = 0; i < words.length; i++) {
-//         words[i].addEventListener('click', function() {
-//             this.classList.toggle('open');
-//             let hiddenArea = this.nextElementSibling;
-//             if (hiddenArea.style.maxHeight) {
-//                 hiddenArea.style.maxHeight = null;
-//             } else {
-//                 hiddenArea.style.maxHeight = hiddenArea.scrollHeight + 'px';
-//             }
-//         });
-//     }
-// };
 
 
 
