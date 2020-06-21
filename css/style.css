@@ -68,6 +68,10 @@ h1#nav-logo-text {
     font-size: 1.4rem;
     margin: 0;
 }
+h1#nav-logo-text a {
+    text-decoration: none;
+    font-family: 'Chelsea Market', Helvetica;
+}
 ul {
     list-style: none;
     margin: 0;
