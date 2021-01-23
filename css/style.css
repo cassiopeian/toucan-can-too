@@ -370,7 +370,7 @@ h2 {
     }
     #sloth-menu {
         display: block;
-        height: 56px;
+        width: 2.95rem;
         cursor: pointer;
     }
     .hamburger {
