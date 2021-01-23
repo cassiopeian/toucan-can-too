@@ -27,47 +27,55 @@ shouldWake = document.getElementById('should-wake');
 shouldNotWake = document.getElementById('should-not-wake');
 
 beach.onclick = () => {
-    dropdownOptions.style.display = 'none';
-    placeholderOne.innerHTML = 'beach';
-    placeholderOne.setAttribute('class', 'drop-chosen');
-    queryTwo.style.display = 'block';
+  dropdownOptions.style.display = 'none';
+  placeholderOne.innerHTML = 'beach';
+  placeholderOne.setAttribute('class', 'drop-chosen');
+  queryTwo.style.display = 'block';
 };
 
 rainforest.onclick = () => {
-    dropdownOptions.style.display = 'none';
-    placeholderOne.innerHTML = 'rainforest';
-    placeholderOne.setAttribute('class', 'drop-chosen');
-    queryTwo.style.display = 'block';
+  dropdownOptions.style.display = 'none';
+  placeholderOne.innerHTML = 'rainforest';
+  placeholderOne.setAttribute('class', 'drop-chosen');
+  queryTwo.style.display = 'block';
 };
 
 shouldWake.onclick = () => {
-    dropdownOptions.style.display = 'none';
-    placeholderTwo.innerHTML = 'should';
-    placeholderTwo.setAttribute('class', 'drop-chosen');
+  dropdownOptions.style.display = 'none';
+  placeholderTwo.innerHTML = 'should';
+  placeholderTwo.setAttribute('class', 'drop-chosen');
 };
 
 shouldNotWake.onclick = () => {
-    dropdownOptions.style.display = 'none';
-    placeholderTwo.innerHTML = `shouldn't`;
-    placeholderTwo.setAttribute('class', 'drop-chosen');
+  dropdownOptions.style.display = 'none';
+  placeholderTwo.innerHTML = `shouldn't`;
+  placeholderTwo.setAttribute('class', 'drop-chosen');
 };
 
 
 // SLOTH MENU
 
 $('.hamburger').on('click', function(){
-    $('nav').animate({left: 0});
-  });
+  $('nav').animate({left: 0});
+});
   
 $('.close-nav').on('click', function(){
-    $('nav').animate({left: '100%'});
-  });
+  $('nav').animate({left: '100%'});
+});
   
 $(window).on('resize', function(){
-    $('nav').removeAttr('style');
-  });
+  $('nav').removeAttr('style');
+});
 
+let slothMenu = document.getElementById('sloth-menu');
 
+slothMenu.addEventListener('mouseenter', function(event) {
+  event.target.setAttribute('src', 'images/sloth-menu-hover.svg');
+}, false);
+
+slothMenu.addEventListener('mouseleave', function(event) {
+  event.target.setAttribute('src', 'images/sloth-menu.svg');
+}, false);
 
   
 // selectHolder.onclick = () => {
