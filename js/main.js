@@ -29,14 +29,14 @@ shouldNotWake = document.getElementById('should-not-wake');
 beach.onclick = () => {
   dropdownOptions.style.display = 'none';
   placeholderOne.innerHTML = 'beach';
-  placeholderOne.setAttribute('class', 'drop-chosen');
+  placeholderOne.setAttribute('class', 'drop-chosen beach-color');
   queryTwo.style.display = 'block';
 };
 
 rainforest.onclick = () => {
   dropdownOptions.style.display = 'none';
   placeholderOne.innerHTML = 'rainforest';
-  placeholderOne.setAttribute('class', 'drop-chosen');
+  placeholderOne.setAttribute('class', 'drop-chosen rainforest-color');
   queryTwo.style.display = 'block';
 };
 
