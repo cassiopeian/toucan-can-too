@@ -329,9 +329,14 @@ h2 {
     font-weight: 500;
     font-style: normal;
     letter-spacing: 1.5px;
-    color: rgb(0, 169, 157);
     position: relative;
     display: inline-block;
+}
+.beach-color {
+    color: rgb(33, 199, 255);
+}
+.rainforest-color {
+    color: rgb(0, 169, 157);
 }
 
 /* MEDIA QUERIES */
