@@ -16,41 +16,60 @@ dropdownOptions = document.querySelector('.dropdown-options');
 
 // CHOOSING FROM THE DROPDOWNS 
 
-queryTwo = document.getElementById('query-two');
+const placeholderOne = document.getElementById('placeholder-one');
+const rBlankOne = document.getElementById('r-blank-one');
+const bBlankOne = document.getElementById('b-blank-one');
 
-placeholderOne = document.getElementById('placeholder-one');
-placeholderTwo = document.getElementById('placeholder-two');
+const beach = document.getElementById('beach');
+const bOne = document.getElementById('b-one');
+const bringSnorkel = document.getElementById('bring-snorkel');
+const forgetSnorkel = document.getElementById('forget-snorkel');
 
-beach = document.getElementById('beach');
-rainforest = document.getElementById('rainforest');
-shouldWake = document.getElementById('should-wake');
-shouldNotWake = document.getElementById('should-not-wake');
+const rainforest = document.getElementById('rainforest');
+const rOne = document.getElementById('r-one');
+const shouldWake = document.getElementById('should-wake');
+const shouldNotWake = document.getElementById('should-not-wake');
 
+// beach prompts
 beach.onclick = () => {
   dropdownOptions.style.display = 'none';
-  placeholderOne.innerHTML = 'beach';
+  placeholderOne.innerHTML = beach.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen beach-color');
-  queryTwo.style.display = 'block';
+  bOne.style.display = 'block';
 };
 
+bringSnorkel.onclick = () => {
+  dropdownOptions.style.display = 'none';
+  bBlankOne.innerHTML = bringSnorkel.innerHTML;
+  bBlankOne.setAttribute('class', 'drop-chosen beach-color');
+};
+
+forgetSnorkel.onclick = () => {
+  dropdownOptions.style.display = 'none';
+  bBlankOne.innerHTML = forgetSnorkel.innerHTML;
+  bBlankOne.setAttribute('class', 'drop-chosen beach-color');
+};
+
+// rainforest prompts
 rainforest.onclick = () => {
   dropdownOptions.style.display = 'none';
-  placeholderOne.innerHTML = 'rainforest';
+  placeholderOne.innerHTML = rainforest.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen rainforest-color');
-  queryTwo.style.display = 'block';
+  rOne.style.display = 'block';
 };
 
 shouldWake.onclick = () => {
   dropdownOptions.style.display = 'none';
-  placeholderTwo.innerHTML = 'should';
-  placeholderTwo.setAttribute('class', 'drop-chosen');
+  rBlankOne.innerHTML = shouldWake.innerHTML;
+  rBlankOne.setAttribute('class', 'drop-chosen rainforest-color');
 };
 
 shouldNotWake.onclick = () => {
   dropdownOptions.style.display = 'none';
-  placeholderTwo.innerHTML = `shouldn't`;
-  placeholderTwo.setAttribute('class', 'drop-chosen');
+  rBlankOne.innerHTML = shouldNotWake.innerHTML;
+  rBlankOne.setAttribute('class', 'drop-chosen rainforest-color');
 };
+
 
 
 // SLOTH MENU
