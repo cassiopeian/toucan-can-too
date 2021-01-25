@@ -13,6 +13,9 @@ dropdownOptions = document.querySelector('.dropdown-options');
 //     startButton.style.display = 'none';
 // };
 
+function bumpUp() {
+  window.scrollBy(0, 120);
+};
 
 // CHOOSING FROM THE DROPDOWNS 
 
@@ -36,6 +39,7 @@ beach.onclick = () => {
   placeholderOne.innerHTML = beach.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen beach-color');
   bOne.style.display = 'block';
+  bumpUp();
 };
 
 bringSnorkel.onclick = () => {
@@ -56,6 +60,7 @@ rainforest.onclick = () => {
   placeholderOne.innerHTML = rainforest.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen rainforest-color');
   rOne.style.display = 'block';
+  bumpUp();
 };
 
 shouldWake.onclick = () => {
@@ -69,8 +74,6 @@ shouldNotWake.onclick = () => {
   rBlankOne.innerHTML = shouldNotWake.innerHTML;
   rBlankOne.setAttribute('class', 'drop-chosen rainforest-color');
 };
-
-
 
 // SLOTH MENU
 
