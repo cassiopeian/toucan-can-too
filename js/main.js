@@ -14,6 +14,7 @@ dropdownOptions = document.querySelector('.dropdown-options');
 // };
 
 function bumpUp() {
+  dropdownOptions.style.display = 'none';
   window.scrollBy(0, 120);
 };
 
@@ -35,7 +36,6 @@ const shouldNotWake = document.getElementById('should-not-wake');
 
 // beach prompts
 beach.onclick = () => {
-  dropdownOptions.style.display = 'none';
   placeholderOne.innerHTML = beach.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen beach-color');
   bOne.style.display = 'block';
@@ -43,20 +43,19 @@ beach.onclick = () => {
 };
 
 bringSnorkel.onclick = () => {
-  dropdownOptions.style.display = 'none';
   bBlankOne.innerHTML = bringSnorkel.innerHTML;
   bBlankOne.setAttribute('class', 'drop-chosen beach-color');
+  bumpUp();
 };
 
 forgetSnorkel.onclick = () => {
-  dropdownOptions.style.display = 'none';
   bBlankOne.innerHTML = forgetSnorkel.innerHTML;
   bBlankOne.setAttribute('class', 'drop-chosen beach-color');
+  bumpUp();
 };
 
 // rainforest prompts
 rainforest.onclick = () => {
-  dropdownOptions.style.display = 'none';
   placeholderOne.innerHTML = rainforest.innerHTML;
   placeholderOne.setAttribute('class', 'drop-chosen rainforest-color');
   rOne.style.display = 'block';
@@ -64,15 +63,15 @@ rainforest.onclick = () => {
 };
 
 shouldWake.onclick = () => {
-  dropdownOptions.style.display = 'none';
   rBlankOne.innerHTML = shouldWake.innerHTML;
   rBlankOne.setAttribute('class', 'drop-chosen rainforest-color');
+  bumpUp();
 };
 
 shouldNotWake.onclick = () => {
-  dropdownOptions.style.display = 'none';
   rBlankOne.innerHTML = shouldNotWake.innerHTML;
   rBlankOne.setAttribute('class', 'drop-chosen rainforest-color');
+  bumpUp();
 };
 
 // SLOTH MENU
