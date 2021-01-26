@@ -49,69 +49,69 @@ let green = (element) => {
     return element.hasClass('selected-letter');
 };
 
-// if the first and last letter of each word HAS been selected, displayFlex will "open" that word's hidden animal-fact div
-let displayFlex = (animal) => {
-    return animal.css('display', 'flex');
+// if the first and last letter of each word HAS been selected, displayFacts will "open" that word's hidden animal-fact div
+let displayFacts = (animal) => {
+    return animal.css('display', 'block');
 };
 
 // each revealAnimal function below relies on the two functions above, and they're all called in the click event on line 17
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
-        displayFlex($('#anaconda'));
+        displayFacts($('#anaconda'));
     }
 };
 
 let revealCaiman = () => {
     if (green($('#10-11')) && green($('#6-7')) && green($('#5-6'))) {
-        displayFlex($('#caiman'));
+        displayFacts($('#caiman'));
     }
 };
 
 let revealMacaw = () => {
     if (green($('#2-3')) && green($('#2-7'))) {
-        displayFlex($('#macaw'));
+        displayFacts($('#macaw'));
     }
 };
 
 let revealMorpho = () => {
     if (green($('#5-5')) && green($('#10-5'))) {
-        displayFlex($('#morpho'));
+        displayFacts($('#morpho'));
     }
 };
 
 let revealOcelot = () => {
     if (green($('#3-11')) && green($('#8-11'))) {
-        displayFlex($('#ocelot'));
+        displayFacts($('#ocelot'));
     }
 };
 
 let revealPiranha = () => {
     if (green($('#4-1')) && green($('#9-1')) && green($('#10-1'))) {
-        displayFlex($('#piranha'));
+        displayFacts($('#piranha'));
     }
 };
 
 let revealSloth = () => {
     if (green($('#7-2')) && green($('#3-2'))) {
-        displayFlex($('#sloth'));
+        displayFacts($('#sloth'));
     }
 };
 
 let revealTapir = () => {
     if (green($('#5-9')) && green($('#9-9'))) {
-        displayFlex($('#tapir'));
+        displayFacts($('#tapir'));
     }
 };
 
 let revealToucan = () => {
     if (green($('#6-10')) && green($('#1-10'))) {
-        displayFlex($('#toucan'));
+        displayFacts($('#toucan'));
     }
 };
 
 let revealTreeFrog = () => {
     if (green($('#1-8')) && green($('#1-1'))) {
-        displayFlex($('#treefrog'));
+        displayFacts($('#treefrog'));
     }
 };
 
