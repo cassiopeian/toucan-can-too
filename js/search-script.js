@@ -179,3 +179,16 @@ $('.close-nav').on('click', function(){
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
 });
+
+// hovering over the hamburger menu
+$('.hamburger').on('mouseenter', function() {
+    // lowers the sloth's arm
+    $('#sloth-menu').attr('src', 'images/sloth-menu-hover.svg');
+});
+
+// moving the mouse away from the hamburger menu
+$('.hamburger').on('mouseleave', function() {
+    // raises the sloth's arm
+    $('#sloth-menu').attr('src', 'images/sloth-menu.svg');
+});
+
