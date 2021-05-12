@@ -101,3 +101,6 @@ td {
     color: rgb(101, 112, 122);
     margin: 0;
 }
+.found {
+    cursor: pointer;
+}
