@@ -138,6 +138,9 @@ main {
 #home-plants-container {
     padding: 12px 12px 12px 0;
 }
+#middle-column {
+    width: 50%;
+}
 #intro-box {
     width: 500px;
     background-color: rgb(250, 250, 250);
