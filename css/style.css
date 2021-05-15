@@ -118,11 +118,12 @@ p#copyright {
 
 /* HOMEPAGE */
 
-#home-flex-container {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    width: 80%;
+    margin: 5% auto 0;
 }
 .bookend-art {
     overflow: hidden;
