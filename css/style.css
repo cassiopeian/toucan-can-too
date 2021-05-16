@@ -185,7 +185,7 @@ h1 {
     height: 70px;
     padding-top: 40px;
 }
-p#welcome {
+#welcome {
     /* font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
     font-weight: 400; */
@@ -346,6 +346,15 @@ h2 {
 }
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 1180px) {
+    #intro-box h1 {
+        font-size: 2rem;
+    }
+    #welcome {
+        font-size: 1.1rem;
+    }
+}
 
 @media only screen and (max-width: 580px) {
     header nav {
