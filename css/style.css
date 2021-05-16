@@ -347,9 +347,15 @@ h2 {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1372px) {
+    main {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1291px) {
     #intro-box h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
     #welcome {
         font-size: 1.1rem;
