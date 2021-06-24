@@ -362,6 +362,15 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .bookend-art {
+        display: none;
+    }
+    #middle-column {
+        width: 85%;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     header nav {
         position: fixed;
