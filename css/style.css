@@ -191,6 +191,12 @@ h1 {
     margin: 0 auto;
     padding-top: 2.5rem;
 }
+#welcome-container img {
+    display: none;
+    float: left;
+    height: 5.5rem;
+    padding: .5rem .75rem 0 0;
+}
 #welcome {
     /* font-family: 'Nunito', sans-serif;
     font-size: 1.25rem;
@@ -374,6 +380,12 @@ h2 {
     }
     #middle-column {
         width: 85%;
+    }
+    #welcome-container img {
+        display: block;
+    }
+    #welcome span {
+        display: none;
     }
 }
 
