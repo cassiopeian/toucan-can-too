@@ -170,11 +170,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 #tagline {
-    /* font-family: 'Poiret One', cursive; */
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 200;
-    font-style: italic; */
     font-family: rooney-sans, sans-serif;
     font-size: 0.8rem;
     font-weight: 300;
@@ -198,9 +193,6 @@ h1 {
     padding: .5rem .75rem 0 0;
 }
 #welcome {
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400; */
     font-family: rooney-sans, sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
@@ -211,11 +203,6 @@ h1 {
     margin: 1.2em 0 1em 0;
 }
 #start-button {
-    /* font-family: 'Poiret One', cursive; */
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 200;
-    font-style: italic; */
     font-family: rooney-sans, sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
@@ -256,10 +243,6 @@ h1 {
     margin-top: 100px;
 }
 h2 {
-    /* font-family: 'Poiret One', cursive; */
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 200; */
     font-family: rooney-sans, sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
@@ -268,9 +251,6 @@ h2 {
     color: rgb(243, 109, 130)
 }
 .query {
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400; */
     font-family: rooney-sans, sans-serif;
     font-size: 2rem;
     font-weight: 500;
@@ -284,10 +264,6 @@ h2 {
     display: none; /* hides all but first query */
 }
 .selection-placeholder {
-    /* font-family: 'Nunito', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 200;
-    font-style: italic; */
     font-family: rooney-sans, sans-serif;
     font-size: 2rem;
     font-weight: 300;
