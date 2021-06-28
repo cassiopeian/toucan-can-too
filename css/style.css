@@ -357,6 +357,10 @@ h2 {
     #middle-column {
         width: 85%;
     }
+    #hibiscus-icon {
+        height: 4rem;
+        padding-top: 2rem;
+    }
     #welcome-container img {
         display: block;
     }
