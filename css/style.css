@@ -123,7 +123,7 @@ footer {
 
 /* HOMEPAGE */
 
-main {
+#home-page main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,7 +336,7 @@ h2 {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1372px) {
-    main {
+    #home-page main {
         width: 85%;
     }
 }
@@ -355,7 +355,7 @@ h2 {
         display: none;
     }
     #middle-column {
-        width: 85%;
+        width: 100%;
     }
     #hibiscus-icon {
         height: 4rem;
@@ -366,6 +366,18 @@ h2 {
     }
     #welcome span {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #home-page main {
+        width: 90%;
+    }
+    #intro-box {
+        padding: 1rem 1.8rem;
+    }
+    #intro-box h1 {
+        font-size: 1.8rem;
     }
 }
 
