@@ -38,15 +38,14 @@ td {
 
 #words-container {
     background-color: rgb(214, 255, 47);
-    padding: 20px 10%;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 30px 0;
 }
-#left-column,
-#right-column {
-    width: 500px;
+.column {
+    width: 100%;
 }
 .words {
     background-color: rgb(10, 21, 27);
@@ -103,4 +102,12 @@ td {
 }
 .found {
     cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+    #words-container {
+        flex-direction: column;
+    }
 }
