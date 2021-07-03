@@ -121,9 +121,18 @@ td {
     }
 }
 
+@media only screen and (max-width: 415px) {
+    #puzzle-grid {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     #puzzle-grid {
-        width: 95%;
         font-size: 1rem;
+    }
+    #words-container {
+        margin: 1.5rem 0;
     }
 }
