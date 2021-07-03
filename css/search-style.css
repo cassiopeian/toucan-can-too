@@ -41,7 +41,6 @@ td {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     margin: 30px 0;
 }
 .column {
