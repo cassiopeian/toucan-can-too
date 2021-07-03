@@ -110,6 +110,12 @@ td {
 
 /* MEDIA QUERIES */
 
+@media (hover:hover) {
+    .found:hover {
+        background-color: rgb(14, 29, 37);
+    }
+}
+
 @media only screen and (max-width: 800px) {
     #words-container {
         flex-direction: column;
