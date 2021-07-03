@@ -49,7 +49,6 @@ td {
 .words {
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    align-items: center;
     background-color: rgb(10, 21, 27);
     font-family: rooney-sans, sans-serif;
     font-size: 1.1rem;
