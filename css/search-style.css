@@ -48,6 +48,9 @@ td {
     width: 100%;
 }
 .words {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
     background-color: rgb(10, 21, 27);
     font-family: rooney-sans, sans-serif;
     font-size: 1.1rem;
@@ -62,10 +65,12 @@ td {
     padding: 5px;
     outline: none;
 }
-/* .open {
-    background-color: rgb(39, 79, 103);
-    cursor: pointer;
-} */
+.plus-minus {
+    display: none;
+    font-size: 1.8rem;
+    line-height: 1rem;
+    color: rgb(39, 79, 103);
+}
 #anaconda,
 #caiman,
 #macaw,
