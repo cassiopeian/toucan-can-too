@@ -370,6 +370,8 @@ h2 {
 }
 
 @media only screen and (max-width: 415px) {
+    /* INDEX PAGE */
+
     #home-page main {
         width: 90%;
     }
@@ -378,6 +380,22 @@ h2 {
     }
     #intro-box h1 {
         font-size: 1.8rem;
+    }
+
+    /* STORY PAGE */
+
+    h2 {
+        font-size: 1.3rem;
+    }
+    .query,
+    .selection-placeholder,
+    .drop-chosen {
+        font-size: 1.2rem;
+        text-align: left;
+        letter-spacing: .04rem;
+    }
+    .query {
+        margin-bottom: 1.5rem;
     }
     #copyright {
         font-size: .8rem;
