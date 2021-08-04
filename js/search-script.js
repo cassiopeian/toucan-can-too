@@ -66,6 +66,9 @@ let green = (element) => element.hasClass('selected-letter');
 // if the first and last letter of a word HAS been selected, display the hidden animal-fact div
 let displayFacts = (animal) => animal.css('display', 'block');
 
+// display the minus symbol, to indicate the facts can be collapsed
+let displayToggler = (btn) => btn.addClass('found').children('.plus-minus').css('display', 'block');
+
 // each revealAnimal function below relies on the two functions above, and they're all called in the click event on line 17
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
