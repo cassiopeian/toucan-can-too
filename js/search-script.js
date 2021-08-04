@@ -60,10 +60,8 @@ $('button').on('click', function() {
     }
 });
 
-// this confirms that a letter has been selected/turned green
-let green = (element) => {
-    return element.hasClass('selected-letter');
-};
+// confirm, in the "reveal" functions, that a letter has been selected
+let green = (element) => element.hasClass('selected-letter');
 
 // if the first and last letter of each word HAS been selected, displayFacts will "open" that word's hidden animal-fact div
 let displayFacts = (animal) => {
