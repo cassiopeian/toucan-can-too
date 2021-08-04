@@ -63,10 +63,8 @@ $('button').on('click', function() {
 // confirm, in the "reveal" functions, that a letter has been selected
 let green = (element) => element.hasClass('selected-letter');
 
-// if the first and last letter of each word HAS been selected, displayFacts will "open" that word's hidden animal-fact div
-let displayFacts = (animal) => {
-    return animal.css('display', 'block');
-};
+// if the first and last letter of a word HAS been selected, display the hidden animal-fact div
+let displayFacts = (animal) => animal.css('display', 'block');
 
 // each revealAnimal function below relies on the two functions above, and they're all called in the click event on line 17
 let revealAnaconda = () => {
