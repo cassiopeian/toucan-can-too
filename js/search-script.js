@@ -73,7 +73,7 @@ let displayToggler = (btn) => btn.addClass('found').children('.plus-minus').css(
 let revealAnaconda = () => {
     if (green($('#10-1')) && green($('#3-8'))) {
         displayFacts($('#anaconda'));
-        $('#anaconda-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#anaconda-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealAnaconda = () => {};
@@ -83,7 +83,7 @@ let revealAnaconda = () => {
 let revealCaiman = () => {
     if (green($('#10-11')) && green($('#6-7')) && green($('#5-6'))) {
         displayFacts($('#caiman'));
-        $('#caiman-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#caiman-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealCaiman = () => {};
@@ -93,7 +93,7 @@ let revealCaiman = () => {
 let revealMacaw = () => {
     if (green($('#2-3')) && green($('#2-7'))) {
         displayFacts($('#macaw'));
-        $('#macaw-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#macaw-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealMacaw = () => {};
@@ -103,7 +103,7 @@ let revealMacaw = () => {
 let revealMorpho = () => {
     if (green($('#5-5')) && green($('#10-5'))) {
         displayFacts($('#morpho'));
-        $('#morpho-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#morpho-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealMorpho = () => {};
@@ -113,7 +113,7 @@ let revealMorpho = () => {
 let revealOcelot = () => {
     if (green($('#3-11')) && green($('#8-11'))) {
         displayFacts($('#ocelot'));
-        $('#ocelot-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#ocelot-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealOcelot = () => {};
@@ -123,7 +123,7 @@ let revealOcelot = () => {
 let revealPiranha = () => {
     if (green($('#4-1')) && green($('#9-1')) && green($('#10-1'))) {
         displayFacts($('#piranha'));
-        $('#piranha-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#piranha-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealPiranha = () => {};
@@ -133,7 +133,7 @@ let revealPiranha = () => {
 let revealSloth = () => {
     if (green($('#7-2')) && green($('#3-2'))) {
         displayFacts($('#sloth'));
-        $('#sloth-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#sloth-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealSloth = () => {};
@@ -143,7 +143,7 @@ let revealSloth = () => {
 let revealTapir = () => {
     if (green($('#5-9')) && green($('#9-9'))) {
         displayFacts($('#tapir'));
-        $('#tapir-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#tapir-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealTapir = () => {};
@@ -153,7 +153,7 @@ let revealTapir = () => {
 let revealToucan = () => {
     if (green($('#6-10')) && green($('#1-10'))) {
         displayFacts($('#toucan'));
-        $('#toucan-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#toucan-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealToucan = () => {};
@@ -163,7 +163,7 @@ let revealToucan = () => {
 let revealTreeFrog = () => {
     if (green($('#1-8')) && green($('#1-1'))) {
         displayFacts($('#treefrog'));
-        $('#treefrog-button').addClass('found').children('.plus-minus').css('display', 'block');
+        displayToggler($('#treefrog-button'));
 
         // prevent facts from opening again, unless toggled by user
         revealTreeFrog = () => {};
